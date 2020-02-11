@@ -1399,6 +1399,7 @@ ol {
 	background-image: -o-linear-gradient(left, #ffffff 100%, #ffffff 100%), -o-linear-gradient(left, #ffffff 0%, #ffffff 0%);
 	background-image: linear-gradient(to right, #ffffff 100%, #ffffff 100%), linear-gradient(to right, #ffffff 0%, #ffffff 0%);
 	margin-top: 14px;
+	margin-left: 10px;
 }
 
 /*---------------------
