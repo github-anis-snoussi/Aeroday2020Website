@@ -127,6 +127,7 @@ ol {
 }
 
 .set-bg {
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -158,6 +159,8 @@ ol {
 /* buttons */
 
 .primary-btn {
+	
+	
 	display: inline-block;
 	font-size: 14px;
 	font-family: "Oswald", sans-serif;
@@ -185,6 +188,7 @@ ol {
 	line-height: 45px;
 	position: relative;
 	z-index: 1;
+	
 	border-radius: 4px;
 }
 
@@ -648,6 +652,7 @@ ol {
 -----------------------*/
 
 .feature-item {
+	position: relative;
 	text-align: center;
 	height: 380px;
 	margin-left: -15px;
