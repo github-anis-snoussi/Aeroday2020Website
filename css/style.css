@@ -1229,8 +1229,8 @@ ol {
 
 .blog-section {
 	background: #151515;
-	padding-top: 90px;
-	padding-bottom: 66px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .blog-section .section-title {
@@ -1750,12 +1750,12 @@ ol {
 .aboutus-section {
 	background: #151515;
 	padding-top: 90px;
-	padding-bottom: 80px;
+	padding-bottom: 10px;
 }
 
 .aboutus-page-text .section-title {
 	text-align: center;
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 }
 
 .aboutus-page-text img {
@@ -1767,6 +1767,7 @@ ol {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 .aboutus-page-text .about-us p {
@@ -1779,6 +1780,7 @@ ol {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 .aboutus-page-text .about-quality p {
@@ -1881,8 +1883,8 @@ ol {
 
 .trainer-section {
 	background: #151515;
-	padding-top: 90px;
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .trainer-section .section-title {
@@ -1923,8 +1925,8 @@ ol {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	font-size: 16px;
 	color: #afb4bf;
 	background: #ffffff;
@@ -1948,24 +1950,48 @@ ol {
 	background: -o-linear-gradient(45deg, #e16521, #D1AE4A);
 	background: linear-gradient(45deg, #e16521, #D1AE4A);
 	width: 100%;
-	padding-left: 20px;
-	padding-top: 15px;
-	padding-bottom: 12px;
+	height: 13%;
+	padding-left: 7px;
+	
+
 	-webkit-clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
 	clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
+	display: table;
 }
 
+
+
 .trainer-item .ti-pic .trainer-text h5 {
-	font-size: 20px;
+	display: table-cell;
+    vertical-align: middle; 
+	font-size: 100%;
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 400;
+}
+
+.trainer-item .ti-pic .trainer-text h6 {
+	display: table-cell;
+    vertical-align: middle;
+	padding-left:5%;
+	font-size: 120%;
+	color: #ffffff;
+	font-weight: 400;
 }
 
 .trainer-item .ti-pic .trainer-text h5 span {
-	font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+	
+	width:100%;
+	padding-left:10%;	
+	font-size: 60%;
 	color: #ffffff;
 	font-family: "Nunito Sans", sans-serif;
+	margin-right:30px;
+	
+
 }
+
 
 /*---------------------
   Gallery Section
